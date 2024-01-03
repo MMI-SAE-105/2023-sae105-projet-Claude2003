@@ -19,9 +19,11 @@
     font-weight: 700;
     display: block;
     text-align: center;
-    padding: 30px; 
     font-size: var(--logo);
+     
 }
+
+
 
 .menu__list {
     list-style:none;
@@ -32,26 +34,29 @@
 }
 
 
+
 .menu__link {
     color: var(--texte1);
     text-decoration: none;
     list-style: none;
-    font-family: var(--menu_text);
+    font-family: 'Roboto Condensed';
     font-weight: 600;
     display: block;
     text-align: start;
-    padding: 30px; 
+    padding: 25px; 
     font-size: var(--menu_text);
 }
 
 
 .menubtn {
-    width: 2em;
-    height: 3em;
+    width: 3em;
+    height: 1em;
     right:20px;
+    padding-top: 25px;
     position: absolute;
     top:1rem;
     cursor: pointer;
+    
 }
 
 .menubtn__bar,

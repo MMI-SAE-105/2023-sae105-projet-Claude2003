@@ -1,0 +1,37 @@
+
+.header {
+    background-color:var(--fond);
+    position:fixed;
+    top:0px;
+    left:0;
+    width:100%;
+    height:81px; 
+    z-index:3;
+    justify-content: space-between;
+    padding: 2px var(--space3x);
+
+}
+
+.header__menubtn{
+    background-color: var(--fond);
+    border:0;
+}
+
+.header__link-logo{
+    text-decoration: none;
+    color: var(--intermediare);
+    font-family: 'Almendra';
+    font-weight: 700;
+    font-size: var(--logo_header);
+   
+  }
+
+  
+  .header__logo{
+    display:inline-flex;
+    vertical-align:middle;
+    width:50%;
+    height:auto;
+    margin:5px 15px 40px 75px ;
+    padding: 15px;
+}
