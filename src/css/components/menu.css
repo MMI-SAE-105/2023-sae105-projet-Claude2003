@@ -15,10 +15,10 @@
     color: var(--texte1);
     text-decoration: none;
     list-style: none;
-    font-family: var(--logo);
+    font-family: 'Almendra';
     font-weight: 700;
     display: block;
-    text-align: start;
+    text-align: center;
     padding: 30px; 
     font-size: var(--logo);
 }
@@ -37,7 +37,7 @@
     text-decoration: none;
     list-style: none;
     font-family: var(--menu_text);
-    font-weight: 700;
+    font-weight: 600;
     display: block;
     text-align: start;
     padding: 30px; 
