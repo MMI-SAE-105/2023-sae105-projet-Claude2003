@@ -1,0 +1,37 @@
+.discover__button{
+    font-weight: var(--body-1-fw);
+    background-color: var(--intermediare);
+    border: 1px solid var(--icones);
+    padding: 20px 40px 20px 40px;
+    color: var(--fond) ;
+    text-decoration: none;
+    font-family: 'inter';
+    font-size: var(--boutons);
+    border-radius: 20px;
+  
+  }
+
+  .bouton_home{
+    text-align: center;
+    padding: 45px;
+  }
+
+  .btn-fill{
+    font-weight: var(--body-1-fw);
+    background-color: var(--fond);
+    border: 1px solid var(--fond);
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+  
+  }
+
+  .btn__fill{
+        text-decoration: none;
+    font-family: 'inter';
+    font-size: var(--c-a-r-d--b-o-d-y);
+     color: var(--intermediare) ;
+   
+     
+  }
+
+  
