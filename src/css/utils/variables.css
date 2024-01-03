@@ -1,0 +1,22 @@
+:root {
+   /* Color styles */
+--fond: rgba(0, 0, 0, 1);
+--intermediare: rgba(255, 255, 255, 1);
+--liens: rgba(113, 10, 153, 1);
+--texte1: rgba(255, 255, 255, 1);
+
+
+   /* Text-size styles */
+--titres_articles: 25px;
+--body: 18px;
+--liens: 18px;
+--titres-pages: 35px;
+--c-a-r-d--b-o-d-y: 14px;
+--menu_text: 32px;
+--logo: 56px;
+--logo_header: 35px;
+--date_article: 13px;
+--titre_home: 24px;
+--footer: 15px;
+--boutons: 16px;
+}
