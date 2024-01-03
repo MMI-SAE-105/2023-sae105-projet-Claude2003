@@ -20,6 +20,7 @@
     display: block;
     text-align: center;
     font-size: var(--logo);
+    
      
 }
 
@@ -43,7 +44,7 @@
     font-weight: 600;
     display: block;
     text-align: start;
-    padding: 25px; 
+    padding: 20px; 
     font-size: var(--menu_text);
 }
 
@@ -52,7 +53,7 @@
     width: 3em;
     height: 1em;
     right:20px;
-    padding-top: 25px;
+    padding-top: 30px;
     position: absolute;
     top:1rem;
     cursor: pointer;

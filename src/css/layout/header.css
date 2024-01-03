@@ -10,6 +10,7 @@
     justify-content: space-between;
     padding: 2px var(--space3x);
 
+
 }
 
 .header__menubtn{
@@ -22,16 +23,20 @@
     color: var(--intermediare);
     font-family: 'Almendra';
     font-weight: 700;
-    font-size: var(--logo_header);
+    font-size: 30px;
    
   }
 
   
   .header__logo{
-    display:inline-flex;
-    vertical-align:middle;
-    width:50%;
-    height:auto;
-    margin:5px 15px 40px 75px ;
-    padding: 15px;
+   text-align: center;
+   margin-top: -30px;
+   
+}
+
+.header__logo-lang{  
+margin-top: 25px;
+width: 48px;
+height:32px;
+position: relative;
 }
