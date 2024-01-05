@@ -1,0 +1,31 @@
+.imag_ronde{
+    clip-path:ellipse(50% 50%);
+    width: 300px;
+}
+
+.image-container {
+    text-align: center; 
+}
+
+.titre_article{
+    color: var(--texte1);
+    font-family: 'inter';
+    font-weight: 900;
+    text-align: center;
+    padding: 20px; 
+    font-size: var(--titres_articles);
+}
+
+.date_publication{
+    color: var(--boutons);
+    font-family: 'Roboto Condensed';
+    text-align: center;
+    font-style: italic ;
+    font-weight: 500;
+}
+
+.chapo{
+    color: var(--body);
+    font-family: 'Roboto Condensed';
+    margin: 30px;
+}
