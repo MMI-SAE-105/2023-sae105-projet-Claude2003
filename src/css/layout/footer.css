@@ -2,7 +2,7 @@
 .footer-colum {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
-    grid-column-gap: 150px;
+    grid-column-gap: 190px;
     padding: 20px; 
 }
 
@@ -34,7 +34,7 @@
     font-family: 'Roboto Condensed';
     font-size: var(--footer);
     font-weight: 300;
-    margin: 10px;
+   
 }
 
 
