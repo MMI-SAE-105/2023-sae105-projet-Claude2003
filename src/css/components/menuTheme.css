@@ -1,0 +1,25 @@
+.about__content{
+    color: var(--body);
+    font-family: 'Roboto Condensed';
+    margin: 30px;
+    text-align: center ;
+}
+
+.site-info{
+    padding: 20px;
+    color: var(--body);
+    font-family: 'Roboto Condensed';
+    margin: 20px;
+
+}
+
+.glossary__list{
+    
+    color: var(--body);
+    font-family: 'Roboto Condensed';
+    margin: 20px;
+}
+
+.glossary__term{
+    font-weight: 700;
+}
