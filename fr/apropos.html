@@ -1,39 +1,183 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="FR"x-data="{menuIsOpen: false}" :class="{noscroll:menuIsOpen}"></html>
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>A propos</title>
+    <link rel="stylesheet" href="../src/css/style.css">
+    <script defer src="https://unpkg.com/alpinejs"></script>
+    
+    
+    <title>KULTURE </title>
+   
+    <link rel="icon" href="../public/icones/logo.svg" />
 </head>
+
 <body>
+
+
+      <header class="header">
+       
+        <div class="header__logo-lang">
+        <a>
+          <img  src="../public/icones/Vector.svg" alt="Logo" width="40px" >
+        </a>
+        </div>
+        <div class="header__logo">
+             <a class="header__link-logo" href="/fr/index.html">KULTURE</a>
+        </div>
+
+
+        <button  class="header__menubtn menubtn" aria-controls="mainNav" @click="menuIsOpen = !menuIsOpen" :class="menuIsOpen &&'menubtn--open'" >
+            <span class="menubtn__bar"></span>
+        </button>
+
+          <nav  id="mainNav" class="header__menu menu"  x-show="menuIsOpen" x-transition.duration.800ms >
+             
+                <a  class="page-title" href="../fr/index.html">
+                    KULTURE
+                </a>
+            
+
+            <ul class="menu__list">
+
+                <li class="menu__item">
+                    <a  class="menu__link "href="film.html">
+                        Black Panther
+                    </a>
+                </li>
+
+
+                <li class= "menu__item">
+            <a class="menu__link "href="realisater.html">
+                Ryan Coogler
+            </a>
+        </li>
+
+
+        <li class= "menu__item">
+            <a class="menu__link "href="musique.html">
+              Lift Me Up 
+                 
+            </a>
+        </li>
+
+
+        <li class= "menu__item">
+            <a class="menu__link " href="livre.html">
+        A nation under our feet 
+        </a>
+    </li>
+
+
+        <li class= "menu__item">
+            <a class="menu__link " href="contact.html">
+            Contact
+        </a>
+    </li>
+
+      
+    </header>
     <main>
-       <h1>À propos</h1> 
+   
+        <div class="about">
+            <h2 class="about__title">À propos</h2>
 
-<img>
+            <img class= "imag_ronde" src="../public/img/moche1.webp" alt="" >
 
-      <p>Derrière ce projet , se cache Claude MALANDA étudiante en première année de BUT MMI à Montbéliard 
+            <p class="about__content">
+                Derrière ce projet, se cache <span class="about__author">Claude MALANDA</span>,
+                étudiante en première année de BUT MMI à Montbéliard 
+            </p>
+        </div>
+        
+        <div class="site-info">
+            <p class="site-info__description">
+                Ce site est dédié au film <span class="site-info__movie-title">Black Panther</span>.
+                Notre projet est le fruit de notre passion pour ce film emblématique des studios Marvel.
+                Nous avons créé ce site pour célébrer et explorer en profondeur les nombreuses dimensions du film.
+            </p>
+            <p class="site-info__objective">
+                Notre objectif principal est de fournir un espace où l'on peut retrouver des informations précises,
+                détaillées sur le film en le découvrant de différentes manières avec les éléments développés en d'autres personnages;
+                son réalisateur, son livre et bien d'autres.
+            </p>
+        </div>
+        
+        <div class="glossary">
+            <h2 class="glossary__title">Glossaires</h2>
+            <dl class="glossary__list">
+                <dt class="glossary__term">Wakanda</dt>
+                <dd class="glossary__definition">
+                    Un pays fictif d'Afrique présent dans l'univers Marvel 
+                </dd>
+                <dt class="glossary__term">Vibranium</dt>
+                <dd class="glossary__definition">
+                    Corps métallique naturel extrêmement rare capable d'absorber les ondes et autres vibrations
+                </dd>
+                <dt class="glossary__term">Dora Milaje</dt>
+                <dd class="glossary__definition">
+                    Les Dora Milaje sont un groupe de femmes gardes du corps et guerrières d'élites,
+                    faisant partie des forces spéciales Wakandaises.
+                </dd>
+            </dl>
+        </div>
+        
 
-</p> 
+    </main> 
 
-<p>
-Ce site est dédié au film Black panther. Notre projet est le fruit de notre passion pour ce film emblématique des studios Marvel. Nous avons créé ce site pour célébrer et explorer en profondeur les nombreuses dimensions du film.
+    <footer class="footer">
 
-Notre objectif principal est de fournir un espace ou l’on peut retrouver des informations précise , détaillées sur le film en le découvrant de différente manière avec les éléments 
-développés en d'autres personnages; son réalisateur, son livre et bien d’autres.
+      <div class="menu--separation">
+        <span class="menu__barresep"></span>
+    </div>
 
-</p>
+      <div class="footer-colum">
+          
+  
+          <div class="menu__container">
+              <p class="footer__texte">Claude MALANDA</p>
+              <a class="footer__mail" href="mailto:claude.malamda_samba@edu.univ-fcomte.fr">claude.malamda_samba@edu.univ-fcomte.fr</a>
+  
+              <div class="reseau">
+                  <a href="#">
+                      <img class="menu__icon" src="../public/icones/instagram.svg" alt="instagram icon">
+                  </a>
+                  <a href="#">
+                      <img class="menu__icon" src="../public/icones/facebook.svg" alt="facebook icon">
+                  </a>
+                  <a href="#">
+                      <img class="menu__icon" src="../public/icones/twitter.svg" alt="twitter icon">
+                  </a>
+              </div>
+          </div>
+     
+  
+      
+          <div class="footer_p">
 
-<h1> Glossaires </h1>
-
-
-<p class="glossaire"> Wakanda = un pays fictif d'Afrique présent dans l'univers Marvel 
-
-Vibranium = corps métallique naturel extrêmement rare capable d'absorber les ondes et autres vibrations
-
-Dora milaje = Les Dora Milaje sont un groupe de femmes gardes du corps et guerrières d'élites, faisant partie des forces spéciales Wakandaises.
- </p>  
-
-</main>
+            
+              <p><a class="footer__lien-title" href="../fr/apropos.html">À propos</a>
+              </p>
+              
+             <p><a class="footer__lien-title"  href="../fr/apropos.html">Glossaire</a></li>
+             </p> 
+              <p><a class="footer__lien-title"   href="../fr/autres.html">Autres projets</a>
+             </p>
+  
+          
+             
+          </div>
+  </div>
+          <p class="footer__p">
+              Projet réalisé dans le cadre d'un exercice pédagogique au
+              <a class="footer__link" href="http://mmimontbeliard.com/contact">
+                  département MMI de Montbéliard
+              </a>
+          </p>
+      
+  </footer>
+  
 
 </body>
 </html>

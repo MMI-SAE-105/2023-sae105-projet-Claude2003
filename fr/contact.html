@@ -1,11 +1,180 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="FR"x-data="{menuIsOpen: false}" :class="{noscroll:menuIsOpen}"></html>
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
-</head>
-<body>
+    <link rel="stylesheet" href="../src/css/style.css">
+    <script defer src="https://unpkg.com/alpinejs"></script>
     
+    
+    <title>Contact</title>
+   
+    <link rel="icon" href="../public/icones/logo.svg" />
+</head>
+
+<body>
+
+
+      <header class="header">
+       
+        <div class="header__logo-lang">
+        <a>
+          <img  src="../public/icones/Vector.svg" alt="Logo" width="40px" >
+        </a>
+        </div>
+        <div class="header__logo">
+             <a class="header__link-logo" href="/fr/index.html">KULTURE</a>
+        </div>
+
+
+        <button  class="header__menubtn menubtn" aria-controls="mainNav" @click="menuIsOpen = !menuIsOpen" :class="menuIsOpen &&'menubtn--open'" >
+            <span class="menubtn__bar"></span>
+        </button>
+
+          <nav  id="mainNav" class="header__menu menu"  x-show="menuIsOpen" x-transition.duration.800ms >
+             
+                <a  class="page-title" href="../fr/index.html">
+                    KULTURE
+                </a>
+            
+
+            <ul class="menu__list">
+
+                <li class="menu__item">
+                    <a  class="menu__link "href="film.html">
+                        Black Panther
+                    </a>
+                </li>
+
+
+                <li class= "menu__item">
+            <a class="menu__link "href="realisater.html">
+                Ryan Coogler
+            </a>
+        </li>
+
+
+        <li class= "menu__item">
+            <a class="menu__link "href="musique.html">
+              Lift Me Up 
+                 
+            </a>
+        </li>
+
+
+        <li class= "menu__item">
+            <a class="menu__link " href="livre.html">
+        A nation under our feet 
+        </a>
+    </li>
+
+
+        <li class= "menu__item">
+            <a class="menu__link " href="contact.html">
+            Contact
+        </a>
+    </li>
+
+      
+    </header>
+    <main>
+        <h1 class="h_contact"> Contact</h1>
+        <p class= " p__contact" >Si vous souhaitez nous contacter, veuillez remplir les informations suivantes :
+        </p>
+          
+          <div >
+                
+                
+                    <div class="form__spacing ">
+                    <label class="form__label" for="name">Name</label>
+                    <form>
+                        <input class="form__text" type="text" name="last-name" id="last-name" >
+                    </form>
+                
+        
+                <div class="form__spacing ">
+                    <label class="form__label" for="forname">First name</label>
+                    <form>
+                        <input class="form__text" type="text" name="first-name" id="first-name" > 
+                    </form>
+                </div>
+                </div>
+                <div class="form__spacing">
+                    <label class="form__label" for="email">Email </label>
+                
+                    <form>
+                        <input class="form__text" type="email" name="email" id="email" >
+                    </form>
+                </div>
+            
+                
+                
+                <div class="form__spacing">
+                    <label class="form__label " for="message">Message </label>
+                    <textarea class="form__textarea" name="message" id="message" cols="30" rows="10"></textarea>
+        
+                </div>
+                <div class="bouton">
+                <input class="send__button" type="submit" value="Envoyer">
+                </div> 
+        </div>
+
+
+    </main> 
+
+    <footer class="footer">
+
+      <div class="menu--separation">
+        <span class="menu__barresep"></span>
+    </div>
+
+      <div class="footer-colum">
+          
+  
+          <div class="menu__container">
+              <p class="footer__texte">Claude MALANDA</p>
+              <a class="footer__mail" href="mailto:claude.malamda_samba@edu.univ-fcomte.fr">claude.malamda_samba@edu.univ-fcomte.fr</a>
+  
+              <div class="reseau">
+                  <a href="#">
+                      <img class="menu__icon" src="../public/icones/instagram.svg" alt="instagram icon">
+                  </a>
+                  <a href="#">
+                      <img class="menu__icon" src="../public/icones/facebook.svg" alt="facebook icon">
+                  </a>
+                  <a href="#">
+                      <img class="menu__icon" src="../public/icones/twitter.svg" alt="twitter icon">
+                  </a>
+              </div>
+          </div>
+     
+  
+      
+          <div class="footer_p">
+
+            
+              <p><a class="footer__lien-title" href="../fr/apropos.html">À propos</a>
+              </p>
+              
+             <p><a class="footer__lien-title"  href="../fr/apropos.html">Glossaire</a></li>
+             </p> 
+              <p><a class="footer__lien-title"   href="../fr/autres.html">Autres projets</a>
+             </p>
+  
+          
+             
+          </div>
+  </div>
+          <p class="footer__p">
+              Projet réalisé dans le cadre d'un exercice pédagogique au
+              <a class="footer__link" href="http://mmimontbeliard.com/contact">
+                  département MMI de Montbéliard
+              </a>
+          </p>
+      
+  </footer>
+  
+
 </body>
 </html>
