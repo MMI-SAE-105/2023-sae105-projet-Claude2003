@@ -1,11 +1,172 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="FR"x-data="{menuIsOpen: false}" :class="{noscroll:menuIsOpen}"></html>
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Réalisateur</title>
-</head>
-<body>
+    <link rel="stylesheet" href="../src/css/style.css">
+    <script defer src="https://unpkg.com/alpinejs"></script>
     
+    
+    <title>Réalisateur</title>
+   
+    <link rel="icon" href="../public/icones/logo.svg" />
+</head>
+
+<body>
+    <header class="header">
+       
+        <div class="header__logo-lang">
+        <a>
+          <img  src="../public/icones/Vector.svg" alt="Logo" width="40px" >
+        </a>
+        </div>
+        <div class="header__logo">
+             <a class="header__link-logo" href="/fr/index.html">KULTURE</a>
+        </div>
+
+
+        <button  class="header__menubtn menubtn" aria-controls="mainNav" @click="menuIsOpen = !menuIsOpen" :class="menuIsOpen &&'menubtn--open'" >
+            <span class="menubtn__bar"></span>
+        </button>
+
+          <nav  id="mainNav" class="header__menu menu"  x-show="menuIsOpen" x-transition.duration.800ms >
+             
+                <a  class="page-title" href="../fr/index.html">
+                    KULTURE
+                </a>
+            
+
+            <ul class="menu__list">
+
+                <li class="menu__item">
+                    <a  class="menu__link "href="film.html">
+                        Black Panther
+                    </a>
+                </li>
+
+
+                <li class= "menu__item">
+            <a class="menu__link "href="realisater.html">
+                Ryan Coogler
+            </a>
+        </li>
+
+
+        <li class= "menu__item">
+            <a class="menu__link "href="musique.html">
+              Lift Me Up 
+                 
+            </a>
+        </li>
+
+
+        <li class= "menu__item">
+            <a class="menu__link " href="livre.html">
+        A nation under our feet 
+        </a>
+    </li>
+
+
+        <li class= "menu__item">
+            <a class="menu__link " href="contact.html">
+            Contact
+        </a>
+    </li>
+
+      
+    </header>
+
+
+    <main>
+    <h1 class="titre_article">
+      Ryan Coogler- Le maestro derrière le phénomène “Black Panthère” 
+      
+      </h1>
+<p class="date_publication"> Par Claude MALANDA 
+    </p> 
+    
+    <p class="date_publication"> Publier le 24 / 10 / 2024 , mis à jour aujourd’hui à 9h45
+    </p>
+   
+    <div class="chapo">
+    <p> Ryan Coogler est la force créative derrière le succès phénoménal du film Black Panther. Réalisateur, producteur et scénariste américain Ryan Coogler est né à Oakland le  23 mai 1986.</p>
+    <img src="../public/img/moche1.webp" alt="" width="100%">
+
+ <p>Après ses débuts remarquables avec Fruitvale Station en 2013, un film tiré des faits réels qui a captivé le public. Il a ensuite poursuivi avec Creed  en 2015 un renouveau de la saga Rocky.  Ses premiers succès ont jeté les bases de sa carrière.  Cependant, c'est en 2018 avec le film Black Panthère que sa carrière a réellement été propulsée sous les projecteurs, il a fait entrer un super héros africain dans l’univers Marvel.</p>
+ 
+ <div class="section_clair">
+
+ <img class= "imag_ronde" src="../public/img/moche1.webp" alt="" >
+<p> 
+   La mort tragique de l’acteur Chadwick Boseman, personnage principal de Black Panthère a été un coup difficile Il a révélé qu’il avait voulu quitter l’industrie de cinéma après la mort de ce dernier. C'est en ces mots tirés d’un entretien avec le site américain EW.Com qu’il explique : “ Je me suis retrouvé à un point où je me suis dit que je vais quitter ce métier. Je n’arrive pas à m'imaginer faire un autre film, encor moins un nouveau Black Panther parce que ça me faisait trop mal” 
+</p>
+
+
+<p> Ryan Coogler est un génie créatif, son travail est exceptionnel. Il a su solidifier sa position en tant que réalisateur et a apporté un souffle d’air frais à Hollywood.
+</p>
+
+ <p>Pour en savoir plus sur ce talentueux réalisateur veuillez lire : Ryan Coogler
+
+</p>
+
+
+<h2>Filmographie</h2>
+
+
+
+</main>
+<footer class="footer">
+
+    <div class="menu--separation">
+      <span class="menu__barresep"></span>
+  </div>
+
+    <div class="footer-colum">
+        
+
+        <div class="menu__container">
+            <p class="footer__texte">Claude MALANDA</p>
+            <a class="footer__mail" href="mailto:claude.malamda_samba@edu.univ-fcomte.fr">claude.malamda_samba@edu.univ-fcomte.fr</a>
+
+            <div class="reseau">
+                <a href="#">
+                    <img class="menu__icon" src="../public/icones/instagram.svg" alt="instagram icon">
+                </a>
+                <a href="#">
+                    <img class="menu__icon" src="../public/icones/facebook.svg" alt="facebook icon">
+                </a>
+                <a href="#">
+                    <img class="menu__icon" src="../public/icones/twitter.svg" alt="twitter icon">
+                </a>
+            </div>
+        </div>
+   
+
+    
+        <div class="footer_p">
+
+          
+            <p><a class="footer__lien-title" href="../fr/apropos.html">À propos</a>
+            </p>
+            
+           <p><a class="footer__lien-title"  href="../fr/apropos.html">Glossaire</a></li>
+           </p> 
+            <p><a class="footer__lien-title"   href="../fr/autres.html">Autres projets</a>
+           </p>
+
+        
+           
+        </div>
+</div>
+        <p class="footer__p">
+            Projet réalisé dans le cadre d'un exercice pédagogique au
+            <a class="footer__link" href="http://mmimontbeliard.com/contact">
+                département MMI de Montbéliard
+            </a>
+        </p>
+    
+</footer>
+
 </body>
 </html>
