@@ -12,6 +12,7 @@
     background-color: var(--fond);
     color: white; 
     padding: 20px; 
+    margin-top: 50px;
 }
 
 .menu--separation{

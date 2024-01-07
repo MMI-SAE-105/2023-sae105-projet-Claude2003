@@ -2,18 +2,7 @@
 
  
 
-    .vertical-line {
-        height: 100vh; /* Adjust the height as needed */
-        width: 5px; /* Width of the line */
-        background-color: #faf6f6; /* Color of the line */
-        top: 0;
-        left: 50%;
-        transform: translateX(-50%);
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-    }
-
+    
     .dot {
         width: 16px; /* Diameter of the dot */
         height: 20px;
