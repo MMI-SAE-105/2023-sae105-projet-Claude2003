@@ -1,14 +1,20 @@
 <!DOCTYPE html>
-<html lang="FR"x-data="{menuIsOpen: false}" :class="{noscroll:menuIsOpen}"></html>
+<html lang="en"x-data="{menuIsOpen: false}" :class="{noscroll:menuIsOpen}"></html>
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../src/css/style.css">
+    <link rel="alternate" hreflang="fr" href="http://architect.claudesamba.fr
+    " />
+<link rel="alternate" hreflang="es" href="http://architect.claudesamba.fr
+" />
+<link rel="alternate" hreflang="de" href="http://architect.claudesamba.fr
+" />
     <script defer src="https://unpkg.com/alpinejs"></script>
     
     
-    <title>KULTURE </title>
+    <title>About</title>
    
     <link rel="icon" href="../public/icones/logo.svg" />
 </head>
@@ -19,7 +25,9 @@
       <header class="header">
        
         <div class="header__logo-lang">
-        <a>
+        <a href="../fr/index.html" onclick="document.cookie = 
+        `nf_lang=en; path=/ ; SameSite=Strict`
+        ">
           <img  src="../public/icones/Vector.svg" alt="Logo" width="40px" >
         </a>
         </div>
@@ -81,46 +89,48 @@
     <main>
    
         <div class="about">
-            <h2 class="about__title">À propos</h2>
+            <h2 class="about__title">About us </h2>
 
             <div class="image-container">
                 <img class= "imag_ronde" src="../public/img/Avatar.webp" alt="" >
                </div>
 
             <p class="about__content">
-                Derrière ce projet, se cache <span class="about__author">Claude MALANDA</span>,
-                étudiante en première année de BUT MMI à Montbéliard 
+                Behind this project is <span class="about__author">Claude MALANDA</span>,
+                a first-year student at BUT MMI in Montbéliard. 
             </p>
         </div>
         
         <div class="site-info">
             <p class="site-info__description">
-                Ce site est dédié au film <span class="site-info__movie-title">Black Panther</span>.
-                Notre projet est le fruit de notre passion pour ce film emblématique des studios Marvel.
-                Nous avons créé ce site pour célébrer et explorer en profondeur les nombreuses dimensions du film.
+                This website is dedicated to the film <span class="site-info__movie-title">Black Panther</span>.
+                Our project is the result of our passion for this iconic Marvel Studios film.
+                We created this site to celebrate and explore the many dimensions of the film in depth.
             </p>
+
             <p class="site-info__objective">
-                Notre objectif principal est de fournir un espace où l'on peut retrouver des informations précises,
-                détaillées sur le film en le découvrant de différentes manières avec les éléments développés en d'autres personnages;
-                son réalisateur, son livre et bien d'autres.
+                Our main aim is to provide a space where you can find precise information
+                detailed information about the film by discovering it in different ways with the elements developed in other characters
+                Its director, its book and many others.
             </p>
         </div>
         
         <div class="glossary">
-            <h2 class="glossary__title">Glossaires </h2>
+            <h2 class="glossary__title">Glossary </h2>
             <dl class="glossary__list">
                 <dt class="glossary__term">Wakanda : </dt>
                 <dd class="glossary__definition">
-                    Un pays fictif d'Afrique présent dans l'univers Marvel 
+                    A fictional African country in the Marvel universe
+
                 </dd>
                 <dt class="glossary__term">Vibranium :</dt>
                 <dd class="glossary__definition">
-                    Corps métallique naturel extrêmement rare capable d'absorber les ondes et autres vibrations
+                    Extremely rare natural metallic body capable of absorbing waves and other vibrations
                 </dd>
                 <dt class="glossary__term">Dora Milaje :</dt>
                 <dd class="glossary__definition">
-                    Les Dora Milaje sont un groupe de femmes gardes du corps et guerrières d'élites,
-                    faisant partie des forces spéciales Wakandaises.
+                    The Dora Milaje are a group of female bodyguards and elite warriors,
+                    part of the Wakandan special forces.
                 </dd>
             </dl>
         </div>
