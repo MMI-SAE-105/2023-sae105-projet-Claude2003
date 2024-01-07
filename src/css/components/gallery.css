@@ -1,0 +1,36 @@
+.gallery {
+    max-width: 350px;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+   
+    
+}
+
+.gallery-item {
+    
+    margin-right: 40px; 
+    margin-bottom: 40px; 
+}
+
+.gallery img {
+    width: 150px;
+    height: 250px;
+    border-radius: 8px;
+
+    transition: transform 0.3s ease-in-out;
+}
+
+.gallery img:hover {
+    transform: scale(1.1);
+}
+
+.image-title {
+   
+    text-align: center;
+    font-size: var(--boutons);
+    color: var(--intermediare);
+    font-family: 'Roboto Condensed';
+    font-weight: 500;
+}
