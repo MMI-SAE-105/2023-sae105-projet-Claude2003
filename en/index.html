@@ -1,10 +1,16 @@
 <!DOCTYPE html>
-<html lang="FR"x-data="{menuIsOpen: false}" :class="{noscroll:menuIsOpen}"></html>
+<html lang="en"x-data="{menuIsOpen: false}" :class="{noscroll:menuIsOpen}"></html>
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../src/css/style.css">
+    <link rel="alternate" hreflang="fr" href="http://architect.claudesamba.fr
+    " />
+<link rel="alternate" hreflang="es" href="http://architect.claudesamba.fr
+" />
+<link rel="alternate" hreflang="de" href="http://architect.claudesamba.fr
+" />
     <script defer src="https://unpkg.com/alpinejs"></script>
     
     
@@ -18,7 +24,10 @@
     <header class="header">
        
         <div class="header__logo-lang">
-        <a>
+        <a  href="../fr/index.html" onclick="document.cookie = 
+        `nf_lang=fr; path=/ ; SameSite=Strict`
+        ">
+
           <img  src="../public/icones/Vector.svg" alt="Logo" width="40px" >
         </a>
         </div>
@@ -86,11 +95,12 @@
 </div>   
 
  <section>
- <p class="p_home"> Plongez dans un univers épique avec la légendaire phrase 'Wakanda Forever'. L'héritage,  la puissance et le destin de Black Panther vous attend.</p>
+ <p class="p_home"> <p class="p_home"> Immerse yourself in an epic universe with the legendary phrase 'Wakanda Forever'. The legacy, power and destiny of Black Panther awaits.</p>
+ 
 
  <div class="bouton_home">
 
-    <a href="replique.html" class="discover__button">Découvrir la réplique</a>
+    <a href="replica.html" class="discover__button">Discover the replica</a>
   </div>
 
 </section>
@@ -104,11 +114,11 @@
           <img class="card-image" src="../public/img/black.webp" alt="">
           </div>
 
-          <p>Le film "Black Panther" de 2018 présente l'entrée mémorable du super-héros T'Challa dans l'univers cinématographique Marvel.</p>
+          <p>The 2018 film 'Black Panther' features superhero T'Challa's memorable entry into the Marvel Cinematic Universe.</p>
         
           <div class="button-article"> 
     
-            <button class="btn-fill"> <a a class="btn__fill" href="film.html"> En savoir plus
+            <button class="btn-fill"> <a a class="btn__fill" href="movie.html"> Read more
                 <img class="img-btn" src="../public/icones/fleche.svg"></a> </button>
 
         </article>
@@ -118,11 +128,10 @@
           <div class="image-container">
             <img class="card-image" src="../public/img/coogler.webp" alt="">
           </div>
-          <p>Avec une carrière marquée par de nombreux succès, Coogler a donné vie au roi de Wakanda avec un talent exceptionnel.</p>
-       
+          <p>With a career marked by numerous successes, Coogler has brought the King of Wakanda to life with exceptional talent.</p>
           <div class="button-article"> 
     
-            <button class="btn-fill"> <a a class="btn__fill" href="realisateur.html"> En savoir plus</a>
+            <button class="btn-fill"> <a a class="btn__fill" href="director.html"> Read more</a>
            </button>
         </article>
     
@@ -133,11 +142,11 @@
           <img class="card-image" src="../public/img/livre1.webp" alt="">
           </div>
 
-          <p>Ce livre est le premier volume d'une série de bandes dessinées mettant en vedette Black Panther, le super-héros emblématique de Marvel.</p>
+          <p>This book is the first volume in a comic book series featuring Black Panther, Marvel's iconic superhero.</p>
         
           <div class="button-article"> 
     
-            <button class="btn-fill"> <a a class="btn__fill" href="livre.html"> En savoir plus</a>
+            <button class="btn-fill"> <a a class="btn__fill" href="book.html"> Read more</a>
            </button>
 
         </article>
@@ -147,11 +156,10 @@
           <div class="image-container">
           <img class="card-image" src="../public/img/rihanna.webp" alt="">
           </div>
-          <p>Après six ans d'absence musicale, Rihanna revient avec un hit "Lift Me Up" émouvant en hommage à Chadwick Boseman.</p>
-         
+          <p>After a six-year musical absence, Rihanna returns with a moving hit "Lift Me Up" in tribute to Chadwick Boseman.</p>
           <div class="button-article"> 
     
-            <button class="btn-fill"> <a a class="btn__fill" href="musique.html"> En savoir plus</a>
+            <button class="btn-fill"> <a a class="btn__fill" href="music.html"> En savoir plus</a>
            </button> 
         </article>
         
@@ -161,7 +169,7 @@
       
      <section>
 
-      <h2 class="info--title">Quelques personnages</h2>
+      <h2 class="info--title">Some characters</h2>
 
     <div class="card">
     <div id="container">
@@ -172,7 +180,7 @@
   
           <div class="product-details">
               <h1>T’Challa</h1>
-              <p class="information">T'Challa est l'héritier du trône de Wakanda et Black Panther, il est le protecteur de Wakanda. De plus, T'Challa est membre des Avengers.</p>
+              <p class="information">T'Challa is heir to the throne of Wakanda and Black Panther, the protector of Wakanda. T'Challa is also a member of the Avengers.</p>
           </div>
       </div>
   </div>
@@ -186,7 +194,7 @@
   
           <div class="product-details">
               <h1>Erik Killmonger</h1>
-              <p class="information"> Erik Killmonger est un antagoniste redoutable qui considère Black Panther comme son ennemi juré. Il est connu pour sa ruse. </p>
+              <p class="information">Erik Killmonger is a formidable antagonist who considers Black Panther his sworn enemy. He is known for his cunning. </p>
           </div>
       </div>
   </div>
