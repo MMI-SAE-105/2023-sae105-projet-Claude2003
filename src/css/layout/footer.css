@@ -6,7 +6,7 @@
     padding: 20px; 
 }
 
-/* Style for the footer container */
+
 .footer {
 
     background-color: var(--fond);
@@ -30,15 +30,12 @@
 }
 
 
-
 .footer__texte{
     font-family: 'Roboto Condensed';
     font-size: var(--footer);
     font-weight: 300;
    
 }
-
-
 
 
 .reseau {
@@ -52,7 +49,6 @@
 .menu__icon {
     margin: 0px 10px; 
 }
-
 
 .footer__mail {
     color: white; 
