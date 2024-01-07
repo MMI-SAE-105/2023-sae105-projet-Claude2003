@@ -17,3 +17,35 @@
         font-weight: 700;
         margin-left: 30px; /* Adjust the margin to control the spacing between the dot and the text */
     }
+
+    
+    .gallery {
+        max-width: 800px;
+        margin: 20px auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .gallery-item {
+        position: relative;
+    }
+
+    .gallery img {
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+        box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .gallery img:hover {
+        transform: scale(1.1);
+    }
+
+    .image-title {
+       
+        text-align: center;
+        font-size: 16px;
+        color: #333;
+    }

@@ -3,3 +3,14 @@
     background-color: var(--intermediare);
     color: var(--fond);
 }
+
+.section_clair{
+    position:relative;
+    background-image: url("/public/icones/wave_article_long.svg");
+    background-repeat:no-repeat;
+    background-size: cover;        
+    padding-bottom:40px;
+    padding-top:50px;
+    top:40px;
+    z-index:0;
+  }
