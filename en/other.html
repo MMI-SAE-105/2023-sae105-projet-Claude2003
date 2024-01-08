@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en"x-data="{menuIsOpen: false}" :class="{noscroll:menuIsOpen}"></html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../src/css/style.css">
+    <link rel="alternate" hreflang="fr" href="http://architect.claudesamba.fr
+    " />
+<link rel="alternate" hreflang="es" href="http://architect.claudesamba.fr
+" />
+<link rel="alternate" hreflang="de" href="http://architect.claudesamba.fr
+" />
+    <script defer src="https://unpkg.com/alpinejs"></script>
+    
+    
+    <title>Autres projets</title>
+   
+    <link rel="icon" href="../public/icones/logo.svg" />
+</head>
+
+<body>
+
+
+      <header class="header">
+       
+        <div class="header__logo-lang">
+        <a href="../fr/index.html" onclick="document.cookie = 
+        `nf_lang=en; path=/ ; SameSite=Strict`
+        ">
+          <img  src="../public/icones/Vector.svg" alt="Logo" width="40px" >
+        </a>
+        </div>
+        <div class="header__logo">
+             <a class="header__link-logo" href="/en/index.html">KULTURE</a>
+        </div>
+
+
+        <button  class="header__menubtn menubtn" aria-controls="mainNav" @click="menuIsOpen = !menuIsOpen" :class="menuIsOpen &&'menubtn--open'" >
+            <span class="menubtn__bar"></span>
+        </button>
+
+          <nav  id="mainNav" class="header__menu menu"  x-show="menuIsOpen" x-transition.duration.800ms >
+             
+                <a  class="page-title" href="../en/index.html">
+                    KULTURE
+                </a>
+            
+
+            <ul class="menu__list">
+
+                <li class="menu__item">
+                    <a  class="menu__link "href="movie.html">
+                        Black Panther
+                    </a>
+                </li>
+
+
+                <li class= "menu__item">
+            <a class="menu__link "href="director.html">
+                Ryan Coogler
+            </a>
+        </li>
+
+
+        <li class= "menu__item">
+            <a class="menu__link "href="music.html">
+              Lift Me Up 
+                 
+            </a>
+        </li>
+
+
+        <li class= "menu__item">
+            <a class="menu__link " href="book.html">
+        A nation under our feet 
+        </a>
+    </li>
+
+
+        <li class= "menu__item">
+            <a class="menu__link " href="formulaire.html">
+            Contact
+        </a>
+    </li>
+
+      
+    </header>
+    <main> 
+        <section class="project">
+            <h2 class="project__title">Hugo COLLIN</h2>
+            <a a class="project__description" href="movie.html"> L’école des sortilèges
+                <img class="img-btn" src="../public/icones/fleche.svg"></a> 
+
+        </section>
+
+        <section class="project">
+            <h2 class="project__title">Mélissa POILÂNE</h2>
+           <a a class="project__description" href="movie.html"> La où l’on va on n’a pas besoin ... de route
+                <img class="img-btn" src="../public/icones/fleche.svg"></a> 
+
+                
+        </section>
+    
+        <section class="project">
+            <h2 class="project__title">Gautier VICAT</h2>
+            <a a class="project__description" href="movie.html"> Marpalm
+                <img class="img-btn" src="../public/icones/fleche.svg"></a> 
+        </section>
+    
+        <section class="project">
+            <h2 class="project__title">Romain GROSJEAN</h2>
+            <a a class="project__description" href="movie.html"> Life find a day
+                <img class="img-btn" src="../public/icones/fleche.svg"></a> 
+        </section>
+    
+        <section class="project">
+            <h2 class="project__title">Maxence LALLEMAND</h2>
+            <a a class="btn__fill" href="movie.html"> Endlen Rebirth
+                <img class="project__description" src="../public/icones/fleche.svg"></a> 
+        </section>
+    
+        <section class="project">
+            <h2 class="project__title">Océan ROBERT</h2>
+            <a a class="project__description" href="movie.html"> Instant clé
+                <img class="img-btn" src="../public/icones/fleche.svg"></a> 
+        </section>
+    
+        <section class="project">
+            <h2 class="project__title">Edouard HASHIMOTO</h2>
+            <a a class="project__description" href="movie.html"> Read more
+                <img class="img-btn" src="../public/icones/fleche.svg"></a>
+        </section>
+    
+        <section class="project">
+            <h2 class="project__title">Ethan SCHMITT</h2>
+            <a a class="project__description" href="movie.html"> Sherman Legerds
+                <img class="img-btn" src="../public/icones/fleche.svg"></a> 
+        </section>
+    
+    
+    </main>
+
+    <footer class="footer">
+
+        <div class="menu--separation">
+          <span class="menu__barresep"></span>
+      </div>
+  
+        <div class="footer-colum">
+            
+    
+            <div class="menu__container">
+                <p class="footer__texte">Claude MALANDA</p>
+                <a class="footer__mail" href="mailto:claude.malamda_samba@edu.univ-fcomte.fr">claude.malamda_samba@edu.univ-fcomte.fr</a>
+    
+                <div class="reseau">
+                    <a href="#">
+                        <img class="menu__icon" src="../public/icones/instagram.svg" alt="instagram icon">
+                    </a>
+                    <a href="#">
+                        <img class="menu__icon" src="../public/icones/facebook.svg" alt="facebook icon">
+                    </a>
+                    <a href="#">
+                        <img class="menu__icon" src="../public/icones/twitter.svg" alt="twitter icon">
+                    </a>
+                </div>
+            </div>
+       
+    
+        
+            <div class="footer_p">
+  
+              
+                <p><a class="footer__lien-title" href="../en/about.html">About</a>
+                </p>
+                
+               <p><a class="footer__lien-title"  href="../en/about.html">Glossary</a></li>
+               </p> 
+                <p><a class="footer__lien-title"   href="../en/other.html">Other projects</a>
+               </p>
+    
+            
+               
+            </div>
+    </div>
+            <p class="footer__p">
+              Project carried out as part of an educational exercise at the
+                <a class="footer__link" href="http://mmimontbeliard.com/contact">
+                  Montbéliard MMI department
+                </a>
+            </p>
+        
+    </footer>
+    
+  
+  </body>
+  </html>

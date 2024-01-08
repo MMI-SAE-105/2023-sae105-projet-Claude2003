@@ -19,6 +19,7 @@
 @import "layout/contact.css";
 @import "layout/pages.css";
 @import "layout/apropos.css";
+@import "layout/AUTRES.css";
 
 /* Components */
 @import "components/menu.css";
