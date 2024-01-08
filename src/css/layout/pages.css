@@ -1,6 +1,7 @@
 .imag_ronde{
     clip-path:ellipse(50% 50%);
-    width: 200px;
+    width: 250px;
+    margin-top: 60px;
 }
 
 .image-container {
@@ -28,4 +29,8 @@
     color: var(--body);
     font-family: 'Roboto Condensed';
     margin: 20px;
+}
+
+.text{
+    margin-top: 70px ;
 }

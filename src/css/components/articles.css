@@ -40,4 +40,5 @@
     padding-top:50px;
     top:40px;
     z-index:0;
+    color: var(--fond);
   }
