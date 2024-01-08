@@ -20,6 +20,8 @@
 @import "layout/pages.css";
 @import "layout/apropos.css";
 @import "layout/AUTRES.css";
+@import "layout/404.css";
+
 
 /* Components */
 @import "components/menu.css";

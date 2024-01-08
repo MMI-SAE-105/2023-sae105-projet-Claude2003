@@ -1,0 +1,50 @@
+.page_quatre{
+    
+    text-align: center;
+    padding: 20px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+.bar_search {
+    margin-bottom: 10px;
+}
+
+.non{
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: var(--logo_header);
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-family: 'Inter';
+    
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.submit_erreur {
+    background-color: var(--intermediare);
+    color: var(--fond);
+    font-family: 'Inter';
+    font-weight: 700;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+p {
+    margin-top: 20px;
+    color: var(--fond);
+}
+
+.page_40{
+    color: #fff;
+}

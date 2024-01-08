@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="FR"x-data="{menuIsOpen: false}" :class="{noscroll:menuIsOpen}"></html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../src/css/style.css">
+    <link rel="alternate" hreflang="en" href="http://architect.claudesamba.fr
+    " />
+<link rel="alternate" hreflang="es" href="http://architect.claudesamba.fr
+" />
+<link rel="alternate" hreflang="de" href="http://architect.claudesamba.fr
+" />
+    <script defer src="https://unpkg.com/alpinejs"></script>
+    
+    
+    <title> A propos </title>
+   
+    <link rel="icon" href="../public/icones/logo.svg" />
+</head>
+
+<body>
+
+
+      <header class="header">
+       
+        <div class="header__logo-lang">
+        <a href="../en/index.html" onclick="document.cookie = 
+        `nf_lang=en; path=/ ; SameSite=Strict`
+        ">
+          <img  src="../public/icones/Vector.svg" alt="Logo" width="40px" >
+        </a>
+        </div>
+        <div class="header__logo">
+             <a class="header__link-logo" href="/fr/index.html">KULTURE</a>
+        </div>
+
+
+        <button  class="header__menubtn menubtn" aria-controls="mainNav" @click="menuIsOpen = !menuIsOpen" :class="menuIsOpen &&'menubtn--open'" >
+            <span class="menubtn__bar"></span>
+        </button>
+
+          <nav  id="mainNav" class="header__menu menu"  x-show="menuIsOpen" x-transition.duration.800ms >
+             
+                <a  class="page-title" href="../fr/index.html">
+                    KULTURE
+                </a>
+            
+
+            <ul class="menu__list">
+
+                <li class="menu__item">
+                    <a  class="menu__link "href="film.html">
+                        Black Panther
+                    </a>
+                </li>
+
+
+                <li class= "menu__item">
+            <a class="menu__link "href="realisater.html">
+                Ryan Coogler
+            </a>
+        </li>
+
+
+        <li class= "menu__item">
+            <a class="menu__link "href="musique.html">
+              Lift Me Up 
+                 
+            </a>
+        </li>
+
+
+        <li class= "menu__item">
+            <a class="menu__link " href="livre.html">
+        A nation under our feet 
+        </a>
+    </li>
+
+
+        <li class= "menu__item">
+            <a class="menu__link " href="contact.html">
+            Contact
+        </a>
+    </li>
+
+      
+    </header>
+
+<main>
+
+    <section class="page_quatre">
+
+
+<img src="../public/icones/404.svg" alt="">
+
+<h1 class="non"> Page not found</h1>
+<form action="https://duckduckgo.com/" method="GET" 
+    x-data="{ q:'', }" 
+    x-on:submit="q = q + ' site:mmimontbeliard.com'">
+    
+    <div class="bar_search">
+
+        <label for="q">Search text :</label>
+        
+        <input type="text"  x-model="q">
+    </div>
+    <button type="submit" class="submit_erreur" >Search </button>
+</form>
+
+</section>
+
+</main>
+</body>
+</html>
