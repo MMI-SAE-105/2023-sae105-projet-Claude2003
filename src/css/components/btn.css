@@ -34,8 +34,7 @@
 }
 
 .button-article .img-btn {
-    margin-left: 5px; /* Ajustez la marge selon vos besoins */
-    
+    margin-left: 5px; 
   }
 
   .btn-fill{
@@ -80,8 +79,4 @@
      
   }
 
-  .img-b{
-    color: var(--fond) ;
-    
-    stroke:black;
-  }
+  

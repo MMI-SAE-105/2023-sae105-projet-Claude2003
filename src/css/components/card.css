@@ -8,7 +8,10 @@
     
 }
 
-
+.card {
+    margin-top: 50px;
+     
+}
 
 .product-details {
 	position: relative;
@@ -65,7 +68,5 @@ font-size: var(--c-a-r-d--b-o-d-y);
     text-align: center;
 }
 
-.card {
-    margin-top: 50px;
-     
-}
+
+
