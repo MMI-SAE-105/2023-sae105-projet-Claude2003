@@ -1,7 +1,27 @@
 .project__title{
-
+    color: var(--texte1);
+    font-family: 'inter';
+    font-weight: 600;
+    display: block;
+    text-align: start;
+    margin: 15px;
+    font-size: var(--body);
 }
 
 .project__description{
-    
+    color: var(--texte1);
+    text-decoration: none;
+    font-style: italic ;
+    font-family: 'Roboto Condensed';
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    text-align: start;
+    font-size: var(--c-a-r-d--b-o-d-y);
+}
+
+
+.img-btn {
+    order: -1; 
+    margin-right: 5px; 
 }

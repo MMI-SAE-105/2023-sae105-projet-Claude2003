@@ -1,5 +1,5 @@
 .about__content{
-    color: var(--body);
+    color: var(--intermediare);
     font-family: 'Roboto Condensed';
     margin: 30px;
     text-align: center ;
@@ -7,15 +7,24 @@
 
 .site-info{
     padding: 20px;
-    color: var(--body);
+    color: var(--intermediare);
     font-family: 'Roboto Condensed';
     margin: 20px;
 
 }
 
+.site-info__description  {
+    color: var(--intermediare);
+}
+
+.site-info__objective{
+    color: var(--intermediare);
+}
+
+
 .glossary__list{
     
-    color: var(--body);
+    color: var(--intermediare);
     font-family: 'Roboto Condensed';
     margin: 20px;
 }
