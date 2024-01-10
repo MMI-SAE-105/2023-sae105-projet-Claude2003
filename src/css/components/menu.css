@@ -34,7 +34,12 @@
     line-height:40px;  
 }
 
-
+.text-ital{
+    text-decoration: none;
+    list-style: none;
+    font-style: italic;
+    font-weight: 600;
+}
 
 .menu__link {
     color: var(--texte1);
